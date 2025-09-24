@@ -1,5 +1,5 @@
 def main():
-    print("Hello from generador-de-mapas-de-dungeon!")
+    print("Prueba para ver si puedo cambiar de versión")
 
 
 if __name__ == "__main__":
