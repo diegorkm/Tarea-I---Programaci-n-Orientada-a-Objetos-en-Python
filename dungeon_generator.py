@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+
 class Habitacion:
     def __init__(self, id: int, x: int, y: int, inicial: bool, contenido: ContenidoHabitacion | None, conexiones: dict[str, Habitacion], visitado: bool):
         self.id = id
@@ -48,10 +50,24 @@ class Explorador: # Implementar metodos
     def recibir_dano(self, cantidad: int):
         pass
 
+    @property
     def  esta_vivo(self) -> bool:
         pass
 
-#  Crear la clase abstracta ContenidoHabitacion
+class ContenidoHabitacion(ABC):
+    def __init__(self):
+        pass
+
+    @property
+    def descripcion() -> str:
+        pass
+
+    @property
+    def tipo() -> str:
+        pass
+
+    def interactuar(self) -> str:
+        pass
 
 class Visualizador:
     def __init__(self):
