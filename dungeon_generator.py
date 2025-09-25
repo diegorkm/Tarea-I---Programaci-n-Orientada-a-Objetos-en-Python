@@ -1,4 +1,6 @@
+from __future__ import annotations
 from abc import ABC, abstractmethod
+
 
 class Habitacion:
     def __init__(self, id: int, x: int, y: int, inicial: bool, contenido: ContenidoHabitacion | None, conexiones: dict[str, Habitacion], visitado: bool):
@@ -55,6 +57,7 @@ class Explorador: # Implementar metodos
         pass
 
 class ContenidoHabitacion(ABC):
+    @abstractmethod
     def __init__(self):
         pass
 
