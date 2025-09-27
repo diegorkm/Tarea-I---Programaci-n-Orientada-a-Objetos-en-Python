@@ -47,37 +47,20 @@ el guardado y cargado de partidas y finalizar el programa.
 ////Cumplimiento Requerimientos\\\\
 
 
-| # |      Requerimiento     |     Estado    |    Observación     |
+| # | Requerimiento           | Estado    | Observación     |
+|---|--------------------------|-----------|-----------------|
 | 1 | Clase habitación con atributos solicitados | Cumplido | ****************** |
-| 2 | Clase Mapa con generar estructura y colocar contenido  | Cumplido | ****************** |
+| 2 | Clase Mapa con generar estructura y colocar contenido | Cumplido | ****************** |
 | 3 | Clase Objeto con nombre, valor y descripción | Cumplido | ****************** |
-| 4 | Clase explorador con vida 5, inventario, posición y métodos | Parcial | Al centrarme solo en generar mapa no altera combate ni inventario | ****************** |
+| 4 | Clase explorador con vida 5, inventario, posición y métodos | Parcial | Al centrarme solo en generar mapa no altera combate ni inventario |
+| 5 | Clase abstracta ContenidoHabitacion y subclases | Parcial | Implementado, pero interactuar() solo da mensaje |
+| 6 | Distribución de contenido en colocar_contenido | Cumplido | ****************** |
+| 7 | Método obtener_estadisticas_mapa | Cumplido | ****************** |
+| 8 | Guardar y cargar partida en JSON | Cumplido | ****************** |
+| 9 | Clase visualizador con rich | Cumplido | ****************** |
+| 10 | Sistema de eventos aleatorios | Parcial | Eventos creados, no modifican nada, solo da texto |
+| 11 | Dificultad escalable con distancia Manhattan | Cumplido | ****************** |
 
-|   | Clase abstracta        |               | Implementado, pero |
-| 5 | ContenidoHabitacion y  |    Parcial    | interactuar() solo |
-|   | subclases              |               | da mensaje         |
-|-----------------------------------------------------------------|
-|   | Distribución de        |               | ****************** |
-| 6 | contenido en           |    Cumplido   | ****************** |
-|   | colocar_contenido      |               | ****************** |
-|-----------------------------------------------------------------|
-|   | Método                 |               | ****************** |
-| 7 | obtener_estadisticas_  |    Cumplido   | ****************** |
-|   | mapa                   |               | ****************** |
-|-----------------------------------------------------------------|
-| 8 | Guardar y cargar       |    Cumplido   | ****************** |
-|   | partida en JSON        |               | ****************** |
-|-----------------------------------------------------------------|
-| 9 | Clase visualizador con |    Cumplido   | ****************** |
-|   | rich                   |               | ****************** |
-|-----------------------------------------------------------------|
-|   | Sistema de eventos     |               | Eventos creados,   |
-| 10| aleatorios             |    Parcial    | no modifican nada, |
-|   |                        |               | solo da texto      |
-|-----------------------------------------------------------------|
-| 11| Dificultad escalable   |    Cumplido   | ****************** |
-|   | con distancia Manhattan|               | ****************** |
-|-----------------------------------------------------------------|
 
 
 ////Observaciones finales (Resumen)\\\\
