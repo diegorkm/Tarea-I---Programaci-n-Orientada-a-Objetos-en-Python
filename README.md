@@ -46,25 +46,13 @@ el guardado y cargado de partidas y finalizar el programa.
 
 ////Cumplimiento Requerimientos\\\\
 
-|-----------------------------------------------------------------|
+
 | # |      Requerimiento     |     Estado    |    Observación     |
-|-----------------------------------------------------------------|
-| 1 | Clase habitación con   |    Cumplido   | ****************** |
-|   | atributos solicitados  |               | ****************** |
-|-----------------------------------------------------------------|
-|   | Clase Mapa con generar |               | ****************** |
-| 2 | estructura y colocar   |    Cumplido   | ****************** |
-|   | contenido              |               | ****************** |
-|-----------------------------------------------------------------|
-|   | Clase Objeto con       |               | ****************** |
-| 3 | nombre, valor y        |    Cumplido   | ****************** |
-|   | descripción            |               | ****************** |
-|-----------------------------------------------------------------|
-|   | Clase explorador con   |               | Al centrarme solo  |
-| 4 | vida 5, inventario,    |    Parcial    | en generar mapa no |
-|   | posición y métodos     |               | altera combate ni  |
-|   |                        |               | inventario         |
-|-----------------------------------------------------------------|
+| 1 | Clase habitación con atributos solicitados | Cumplido | ****************** |
+| 2 | Clase Mapa con generar estructura y colocar contenido  | Cumplido | ****************** |
+| 3 | Clase Objeto con nombre, valor y descripción | Cumplido | ****************** |
+| 4 | Clase explorador con vida 5, inventario, posición y métodos | Parcial | Al centrarme solo en generar mapa no altera combate ni inventario | ****************** |
+
 |   | Clase abstracta        |               | Implementado, pero |
 | 5 | ContenidoHabitacion y  |    Parcial    | interactuar() solo |
 |   | subclases              |               | da mensaje         |
